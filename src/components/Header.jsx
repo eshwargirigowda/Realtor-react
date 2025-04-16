@@ -33,18 +33,14 @@ export default function Header() {
             </li>
             <li
               className={`cursor-pointer py-3 text-sm font-semibold text-gray-400 border-b-[3px] 
-                     ${
-                       pathMathRoute("/offers") && "text-black border-b-red-500"
-                     }`}
+              ${pathMathRoute("/offers") && "text-black border-b-red-500"}`}
               onClick={() => navigate("/offers")}
             >
               offers
             </li>
             <li
               className={`cursor-pointer py-3 text-sm font-semibold text-gray-400 border-b-[3px] 
-                     ${
-                       pathMathRoute("/Signin") && "text-black border-b-red-500"
-                     }`}
+              ${pathMathRoute("/Sign-In") && "text-black border-b-red-500"}`}
               onClick={() => navigate("/Sign-In")}
             >
               Sign in
